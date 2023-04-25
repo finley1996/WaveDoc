@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const app = express();
-const port = 3000;
+const port = 8009;
 
 const DEFAULT_PAGE_SIZE = 10;
 const MAX_PAGE_SIZE = 20;
