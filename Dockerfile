@@ -1,6 +1,6 @@
-# 使用官方 Node.js 12 轻量级镜像.
+# 使用官方 Node.js 16 轻量级镜像.
 # https://hub.docker.com/_/node
-FROM node:12-slim
+FROM node:16-slim
 
 # 定义工作目录
 WORKDIR /usr/src/app
